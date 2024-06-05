@@ -6,13 +6,13 @@
     }
   ],
   "seo": {
-    "titleTemplate": "%s | deco.cx",
-    "descriptionTemplate": "%s | Deco.cx",
+    "titleTemplate": "%s | CenterMedical",
+    "descriptionTemplate": "%s | CenterMedical",
     "type": "website",
-    "title": "Blog CenterMedical",
-    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5018/6684fd72-ed04-4132-9087-7523fdae8f37",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/5018/8b67110d-de01-4e0a-9fe3-f178b9af56d5",
-    "description": "Blog CenterMedical"
+    "title": "Soluções Completas em Saúde para Hospitais, Clínicas e Profissionais",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/68c69228-3528-41bd-ab16-8da6a7234fb6",
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/e6cc3519-5934-453a-bc2f-83807270ea6b",
+    "description": "Encontre tudo para sua saúde na CENTERMEDICAL: produtos, serviços e conteúdos para hospitais, clínicas, profissionais e indivíduos. Seja nosso parceiro desde 2010!"
   },
   "global": [
     {
