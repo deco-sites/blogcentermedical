@@ -55,13 +55,10 @@ export default function Haader({
   navigation = {
     links: [
       { label: "Home", url: "/" },
-      { label: "About us", url: "/" },
-      { label: "Princing", url: "/" },
-      { label: "Contact", url: "/" },
+      { label: "Sobre nós", url: "/" },
     ],
     buttons: [
-      { id: "change-me-1", href: "/", text: "Change me", outline: false },
-      { id: "change-me-2", href: "/", text: "Change me", outline: true },
+      { id: "change-me-1", href: "https://www.centermedical.com.br", text: "Visite nossa loja", outline: true }
     ],
   },
 }: Nav) {

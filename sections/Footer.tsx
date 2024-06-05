@@ -88,10 +88,10 @@ export default function Footer({
   madeWith = {
     label: "Made with",
     src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/cc202be0-af57-4b32-b9c9-d1d7dc97bf85",
-    href: "https://deco.cx",
+      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/f09386a1-9f67-4f1a-99f7-483b05c65723",
+    href: "https://www.centermedical.com.br",
   },
-  copyright = "© 2024 deco.cx. All rights reserved.",
+  copyright = "© 2024 CENTERMEDICAL. All rights reserved.",
   bottomLinks = [
     { label: "Privacy Policy", href: "/" },
     { label: "Terms of Service", href: "/" },
