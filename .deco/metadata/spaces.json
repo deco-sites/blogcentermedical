@@ -445,10 +445,10 @@
             "content": [
               {
                 "type": "stack",
+                "width": 50,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
-                "width": 50,
                 "activeItemIndex": 0,
                 "content": [
                   {
@@ -503,7 +503,8 @@
           "viewId": "Properties",
           "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D": {
@@ -906,25 +907,54 @@
         },
         "content": [
           {
-            "type": "stack",
+            "type": "row",
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
             "content": [
               {
-                "type": "component",
+                "type": "stack",
+                "width": 50,
                 "isClosable": true,
                 "reorderEnabled": true,
-                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D\" />",
-                "id": "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D",
-                "componentName": "component",
-                "componentState": {
-                  "id": "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D"
-                }
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
               }
-            ],
-            "width": 100,
-            "activeItemIndex": 0
+            ]
           }
         ],
         "isClosable": true,
@@ -942,8 +972,18 @@
           "viewId": "Properties",
           "id": "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
           }
         }
       }
@@ -1314,6 +1354,83 @@
           "render": "function",
           "viewId": "Preview",
           "id": "%2F.deco%2Fblocks%2FFooter.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "{\"oid\":\"76264ae39afe20d171cfe590e2e593aaa51961d5\",\"short\":\"76264ae\",\"commit\":{\"message\":\"Release staging environment with 1 changes made by Rodrigo Araujo\\n\",\"parent\":[\"4c1bdb76006a18daf1c5142fdb9dda3f8929ee64\"],\"tree\":\"94d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c\",\"author\":{\"name\":\"Rodrigo Araujo\",\"email\":\"rodrigo.araujo@corebiz.ag\",\"timestamp\":1717610692,\"timezoneOffset\":0},\"committer\":{\"name\":\"Rodrigo Araujo\",\"email\":\"rodrigo.araujo@corebiz.ag\",\"timestamp\":1717610692,\"timezoneOffset\":0}}}",
+      "name": "Release 76264ae",
+      "pinned": false,
+      "icon": "rocket",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "stack",
+            "width": 100,
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "activeItemIndex": 0,
+            "content": [
+              {
+                "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
+                "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D\" />",
+                "type": "component",
+                "componentName": "component",
+                "componentState": {
+                  "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D"
+                },
+                "isClosable": true,
+                "reorderEnabled": true
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D": {
+          "name": "Release",
+          "icon": "rocket",
+          "render": "function",
+          "viewId": "Release",
+          "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
           "state": {
             "__signal": null
           }
