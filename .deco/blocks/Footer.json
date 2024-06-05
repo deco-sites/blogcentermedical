@@ -1,3 +1,10 @@
 {
-  "__resolveType": "site/sections/Footer.tsx"
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [],
+  "subscribe": {},
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/6b16c225-754a-4a44-9519-5ad1e53c9bbd"
+  }
 }
