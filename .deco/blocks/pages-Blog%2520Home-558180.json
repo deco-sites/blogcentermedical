@@ -1,0 +1,31 @@
+{
+  "name": "Blog Home",
+  "path": "/home",
+  "sections": [
+    {
+      "__resolveType": "Header"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx"
+    },
+    {
+      "__resolveType": "Preview /sections/MainPost.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Logos.tsx"
+    },
+    {
+      "__resolveType": "Preview /sections/ImageWithParagraph.tsx"
+    },
+    {
+      "__resolveType": "Preview /sections/Testimonials.tsx"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
