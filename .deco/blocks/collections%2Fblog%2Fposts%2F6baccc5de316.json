@@ -1,0 +1,23 @@
+{
+  "name": "collections/blog/posts/6baccc5de316",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Comunicação CenterMedical",
+        "jobTitle": "Autor",
+        "company": "centermedical.com.br",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/e6cc3519-5934-453a-bc2f-83807270ea6b",
+        "email": "comunicacao@centermedical.com.br"
+      }
+    ],
+    "categories": [
+      {}
+    ],
+    "title": "IA na saúde",
+    "excerpt": "vão dominar o mundo?",
+    "date": "2024-06-06",
+    "slug": "ia-na-saude",
+    "content": "<p>aaaaaaa</p>"
+  }
+}

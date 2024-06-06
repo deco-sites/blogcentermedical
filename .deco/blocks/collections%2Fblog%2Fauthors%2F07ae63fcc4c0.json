@@ -2,7 +2,7 @@
   "name": "collections/blog/authors/07ae63fcc4c0",
   "__resolveType": "blog/loaders/Author.ts",
   "author": {
-    "name": "CenterMedical",
+    "name": "Comunicação CenterMedical",
     "jobTitle": "Autor",
     "company": "centermedical.com.br",
     "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/e6cc3519-5934-453a-bc2f-83807270ea6b",
