@@ -150,7 +150,7 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/collections%2Fblog%2Fposts%2F6baccc5de316.json": {
+  "/.deco/blocks/collections%2Fblog%2Fposts%2F90f0d71ed92a.json": {
     "blockType": "loaders",
     "__resolveType": "blog/loaders/Blogpost.ts"
   }
