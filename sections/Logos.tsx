@@ -39,7 +39,7 @@ export default function Logos({
   return (
     <div class="container lg:mx-auto mx-4 py-6 lg:py-14">
       <div class="flex flex-col gap-12">
-        <p class="text-center text-lg">{title}</p>
+        <p class="text-center text-lg font-['Bebas Neue']">{title}</p>
         <div class="relative w-full overflow-hidden h-11">
           <div class="animate-sliding absolute top-0 left-0 flex flex-nowrap h-11">
             {slideContent}
