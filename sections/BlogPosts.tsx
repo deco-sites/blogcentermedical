@@ -246,16 +246,16 @@ export default function BlogPosts({
                 <div class="font-semibold">{calculateReadingTime(post.content.split(" ").length)}</div>
                 <div class="space-y-2">
                   <h3 class="text-2xl">{post.title}</h3>
-                  <p class="text-base">{post.excerpt}</p>
+                  <p class="text-base font-['Montserrat']">{post.excerpt}</p>
                 </div>
                 <div class="flex flex-wrap gap-2">
                   {post.categories?.map((category) => (
-                    <div class="badge badge-lg badge-primary text-xs">
+                    <div class="badge badge-lg badge-primary text-xs font-['Montserrat']">
                       {category.name}
                     </div>
                   ))}
                 </div>
-                <div class="flex flex-wrap gap-2">
+                <div class="flex flex-wrap gap-2 font-['Montserrat']">
                   <span>{post.date
                     ? new Date(post.date).toLocaleDateString("en-US", {
                       month: "long",
@@ -279,7 +279,7 @@ export default function BlogPosts({
               aria-label={cta.text}
               class="btn btn-primary"
             >
-              <span class="inline [.htmx-request_&]:hidden">
+              <span class="inline [.htmx-request_&]:hidden font-['Montserrat']">
                 {cta.text}
               </span>
               <span class="loading loading-spinner hidden [.htmx-request_&]:block" />

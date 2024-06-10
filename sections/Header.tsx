@@ -117,7 +117,7 @@ export default function Haader({
                 <a
                   href={link.url}
                   aria-label={link.label}
-                  class="link no-underline hover:underline p-4"
+                  class="link no-underline hover:underline p-4 font-['Montserrat']"
                 >
                   {link.label}
                 </a>
@@ -131,7 +131,7 @@ export default function Haader({
                 id={item?.id}
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary ${
+                class={`hover:bg-[#00e275] font-normal btn btn-primary font-['Montserrat'] ${
                   item.outline && "btn-outline"
                 }`}
               >

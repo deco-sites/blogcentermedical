@@ -70,7 +70,7 @@ export default function ImageWithParagraph({
           <p class="text-4xl leading-snug">
             {title}
           </p>
-          <p class="leading-normal">
+          <p class="leading-normal font-['Montserrat']">
             {description}
           </p>
           <div class="flex gap-3 pt-4">
@@ -80,7 +80,7 @@ export default function ImageWithParagraph({
                 id={item?.id}
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`font-normal btn btn-primary
+                class={`font-normal btn btn-primary font-['Montserrat']
                   ${!item.style || item.style == "Outline" && "btn-outline"}
                   ${item.style == "Ghost" && "btn-ghost"}
                 `}
