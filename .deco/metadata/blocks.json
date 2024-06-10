@@ -157,5 +157,9 @@
   "/.deco/blocks/collections%2Fblog%2Fposts%2F8549957fb9a6.json": {
     "blockType": "loaders",
     "__resolveType": "blog/loaders/Blogpost.ts"
+  },
+  "/.deco/blocks/New-Header.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Header.tsx"
   }
 }

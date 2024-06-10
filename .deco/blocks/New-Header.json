@@ -1,0 +1,26 @@
+{
+  "__resolveType": "site/sections/Header.tsx",
+  "navigation": {
+    "links": [
+      {
+        "label": "Home",
+        "url": "/"
+      },
+      {
+        "label": "Quem Somos",
+        "url": "/quem-somos"
+      }
+    ],
+    "buttons": [
+      {
+        "id": "Visite nossa loja",
+        "href": "https://www.centermedical.com.br/",
+        "text": "Visite nossa loja"
+      }
+    ]
+  },
+  "logo": {
+    "src": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/f09386a1-9f67-4f1a-99f7-483b05c65723",
+    "alt": "CenterMedical"
+  }
+}
