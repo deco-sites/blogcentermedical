@@ -49,13 +49,14 @@ const lineStyles = [
 export default function Haader({
   logo = {
     src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/67120bcd-936a-4ea5-a760-02ed5c4a3d04",
+      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/f09386a1-9f67-4f1a-99f7-483b05c65723",
     alt: "Logo",
   },
   navigation = {
     links: [
       { label: "Home", url: "/" },
       { label: "Sobre nós", url: "/" },
+      { label: "Posts", url: "/posts" },
     ],
     buttons: [
       { id: "change-me-1", href: "https://www.centermedical.com.br", text: "Visite nossa loja", outline: true }

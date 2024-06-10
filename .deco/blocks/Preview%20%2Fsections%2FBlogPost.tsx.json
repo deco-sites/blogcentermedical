@@ -1,1 +1,10 @@
-{"__resolveType":"site/sections/BlogPost.tsx"}
+{
+  "__resolveType": "site/sections/BlogPost.tsx",
+  "page": {
+    "@type": "BlogPostPage",
+    "post": {
+      "authors": [],
+      "categories": []
+    }
+  }
+}

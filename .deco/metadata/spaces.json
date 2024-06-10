@@ -445,7 +445,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -467,7 +467,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -506,8 +506,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D": {
@@ -561,23 +560,31 @@
         },
         "content": [
           {
-            "type": "stack",
-            "width": 100,
+            "type": "row",
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "activeItemIndex": 0,
             "content": [
               {
-                "id": "Staging::Environment:undefined:rocketEnvironment{}",
-                "title": "<div class=\"contents text-base-700\" id=\"header-Staging::Environment:undefined:rocketEnvironment{}\" />",
-                "type": "component",
-                "componentName": "component",
-                "componentState": {
-                  "id": "Staging::Environment:undefined:rocketEnvironment{}"
-                },
+                "title": "",
+                "type": "stack",
                 "isClosable": true,
-                "reorderEnabled": true
+                "reorderEnabled": true,
+                "width": 100,
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "Staging::Environment:undefined:rocketEnvironment{}",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-Staging::Environment:undefined:rocketEnvironment{}\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "Staging::Environment:undefined:rocketEnvironment{}"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
               }
             ]
           }
@@ -912,54 +919,25 @@
         },
         "content": [
           {
-            "type": "row",
+            "type": "stack",
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
             "content": [
               {
-                "type": "stack",
-                "width": 50,
+                "type": "component",
                 "isClosable": true,
                 "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 50,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
+                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D\" />",
+                "id": "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D",
+                "componentName": "component",
+                "componentState": {
+                  "id": "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D"
+                }
               }
-            ]
+            ],
+            "width": 100.00000000000001,
+            "activeItemIndex": 0
           }
         ],
         "isClosable": true,
@@ -969,24 +947,13 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
+        "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
           "accepts": "function",
           "render": "function",
-          "viewId": "Properties",
-          "id": "%2F.deco%2Fblocks%2FHeader.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "id": "%2F.deco%2Fblocks%2FHeader.json::Preview::world::Preview::%7B%7D",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -1410,23 +1377,73 @@
         },
         "content": [
           {
-            "type": "stack",
-            "width": 100,
+            "type": "row",
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "activeItemIndex": 0,
             "content": [
               {
-                "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
-                "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D\" />",
-                "type": "component",
-                "componentName": "component",
-                "componentState": {
-                  "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D"
-                },
+                "title": "",
+                "type": "stack",
                 "isClosable": true,
-                "reorderEnabled": true
+                "reorderEnabled": true,
+                "width": 33.333333333333336,
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 33.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520Sections%2520MyHero.json%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520Sections%2520MyHero.json%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520Sections%2520MyHero.json%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 33.33333333333333,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
               }
             ]
           }
@@ -1446,6 +1463,34 @@
           "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
           "state": {
             "__signal": null
+          }
+        },
+        "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520Sections%2520MyHero.json%22%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "viewProps": {
+            "spaceId": "/.deco/blocks/Preview%20Sections%20MyHero.json"
+          },
+          "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520Sections%2520MyHero.json%22%7D",
+          "state": {
+            "__signal": "error"
+          }
+        },
+        "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "viewProps": {
+            "spaceId": "/.deco/blocks/Preview%20%2Fsections%2FHeader.tsx.json"
+          },
+          "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D",
+          "state": {
+            "__signal": "error"
           }
         }
       }
@@ -1529,50 +1574,6 @@
           }
         }
       }
-    },
-    {
-      "id": "/.deco/blocks/pages-Home-522509.json",
-      "name": "Home",
-      "pinned": false,
-      "icon": "file",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
-      "tabs": {}
     },
     {
       "id": "/.deco/blocks/pages-Blog%2520Home-558180.json",
@@ -2112,6 +2113,93 @@
             "content": [
               {
                 "type": "stack",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "width": 100,
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FNew-Header.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FNew-Header.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FNew-Header.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FNew-Header.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FNew-Header.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": null,
+            "value": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Fsections%2FBlogPost.tsx.json",
+      "name": "Preview /sections/BlogPost.tsx",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
                 "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
@@ -2119,12 +2207,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FNew-Header.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FNew-Header.json::Properties::list::Properties::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPost.tsx.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPost.tsx.json::Properties::list::Properties::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FNew-Header.json::Properties::list::Properties::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPost.tsx.json::Properties::list::Properties::%7B%7D"
                     },
                     "width": 30,
                     "isClosable": true,
@@ -2141,12 +2229,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "%2F.deco%2Fblocks%2FNew-Header.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FNew-Header.json::Preview::world::Preview::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPost.tsx.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPost.tsx.json::Preview::world::Preview::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "%2F.deco%2Fblocks%2FNew-Header.json::Preview::world::Preview::%7B%7D"
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPost.tsx.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
                     "isClosable": true,
@@ -2164,28 +2252,396 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2FNew-Header.json::Properties::list::Properties::%7B%7D": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPost.tsx.json::Properties::list::Properties::%7B%7D": {
           "name": "Properties",
           "icon": "list",
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
           "width": 30,
-          "id": "%2F.deco%2Fblocks%2FNew-Header.json::Properties::list::Properties::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPost.tsx.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
           }
         },
-        "%2F.deco%2Fblocks%2FNew-Header.json::Preview::world::Preview::%7B%7D": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPost.tsx.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "world",
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
           "width": 70,
-          "id": "%2F.deco%2Fblocks%2FNew-Header.json::Preview::world::Preview::%7B%7D",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPost.tsx.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20%2Fsections%2FBlogPosts.tsx.json",
+      "name": "Preview /sections/BlogPosts.tsx",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPosts.tsx.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPosts.tsx.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPosts.tsx.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPosts.tsx.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPosts.tsx.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPosts.tsx.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPosts.tsx.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPosts.tsx.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPosts.tsx.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FBlogPosts.tsx.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/hero.json",
+      "name": "hero",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 41.66666666666667,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fhero.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fhero.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fhero.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 58.333333333333336,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fhero.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fhero.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fhero.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2Fhero.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fhero.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fhero.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "width": 70,
+          "id": "%2F.deco%2Fblocks%2Fhero.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20site%2Fsections%2FHero.tsx.json",
+      "name": "Preview site/sections/Hero.tsx",
+      "pinned": false,
+      "icon": "package",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "width": 50,
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fdecofile.json%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fdecofile.json%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fdecofile.json%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Froutes%2F_app.tsx%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Froutes%2F_app.tsx%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Froutes%2F_app.tsx%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fdecofile.json%22%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "viewProps": {
+            "spaceId": "/.deco/decofile.json"
+          },
+          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fdecofile.json%22%7D",
+          "state": {
+            "__signal": "error"
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Froutes%2F_app.tsx%22%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "viewProps": {
+            "spaceId": "/routes/_app.tsx"
+          },
+          "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Froutes%2F_app.tsx%22%7D",
+          "state": {
+            "__signal": "error"
           }
         }
       }
