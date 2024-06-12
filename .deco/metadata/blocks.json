@@ -161,5 +161,9 @@
   "/.deco/blocks/New-Header.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Header.tsx"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fposts%2F9a7c4b2fd77e.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Blogpost.ts"
   }
 }

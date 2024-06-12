@@ -65,17 +65,94 @@
       "name": "Blog",
       "pinned": true,
       "icon": "article",
-      "layout": [
-        {
-          "w": 6,
-          "h": 24
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
         },
-        {
-          "w": 18,
-          "h": 24,
-          "x": 6
-        }
-      ],
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections::Blog::article::Blog::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections::Blog::article::Blog::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections::Blog::article::Blog::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections::Blog%20Items::article::Blog%20Items::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections::Blog%20Items::article::Blog%20Items::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections::Blog%20Items::article::Blog%20Items::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "collections::Blog::article::Blog::%7B%7D": {
           "name": "Blog",
@@ -436,92 +513,14 @@
           "popin": "pop in",
           "tabDropdown": "additional tabs"
         },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 41.66666666666667,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 58.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "content": [],
         "isClosable": true,
         "reorderEnabled": true,
         "title": "",
         "openPopouts": [],
         "maximisedItemId": null
       },
-      "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fpages-home-5afd25174424.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
+      "tabs": {}
     },
     {
       "id": "Staging",
@@ -919,25 +918,54 @@
         },
         "content": [
           {
-            "type": "stack",
+            "type": "row",
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
             "content": [
               {
-                "type": "component",
+                "type": "stack",
                 "isClosable": true,
                 "reorderEnabled": true,
-                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D\" />",
-                "id": "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D",
-                "componentName": "component",
-                "componentState": {
-                  "id": "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D"
-                }
+                "title": "",
+                "width": 50,
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "type": "component",
+                    "isClosable": true,
+                    "reorderEnabled": true,
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D\" />",
+                    "id": "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D"
+                    }
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FHeader.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FHeader.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FHeader.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
               }
-            ],
-            "width": 100.00000000000001,
-            "activeItemIndex": 0
+            ]
           }
         ],
         "isClosable": true,
@@ -954,6 +982,18 @@
           "render": "function",
           "viewId": "Code",
           "id": "%2F.deco%2Fblocks%2FHeader.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": null,
+            "value": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FHeader.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D": {
+          "name": "JSON Properties",
+          "icon": "braces",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "JSON Properties",
+          "id": "%2F.deco%2Fblocks%2FHeader.json::JSON%20Properties::braces::JSON%20Properties::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -1375,125 +1415,14 @@
           "popin": "pop in",
           "tabDropdown": "additional tabs"
         },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "title": "",
-                "type": "stack",
-                "isClosable": true,
-                "reorderEnabled": true,
-                "width": 33.333333333333336,
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520Sections%2520MyHero.json%22%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520Sections%2520MyHero.json%22%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520Sections%2520MyHero.json%22%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.33333333333333,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "content": [],
         "isClosable": true,
         "reorderEnabled": true,
         "title": "",
         "openPopouts": [],
         "maximisedItemId": null
       },
-      "tabs": {
-        "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D": {
-          "name": "Release",
-          "icon": "rocket",
-          "render": "function",
-          "viewId": "Release",
-          "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520Sections%2520MyHero.json%22%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "viewProps": {
-            "spaceId": "/.deco/blocks/Preview%20Sections%20MyHero.json"
-          },
-          "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520Sections%2520MyHero.json%22%7D",
-          "state": {
-            "__signal": "error"
-          }
-        },
-        "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D": {
-          "name": "Code",
-          "icon": "code",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Code",
-          "viewProps": {
-            "spaceId": "/.deco/blocks/Preview%20%2Fsections%2FHeader.tsx.json"
-          },
-          "id": "%7B%22oid%22%3A%2276264ae39afe20d171cfe590e2e593aaa51961d5%22%2C%22short%22%3A%2276264ae%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%224c1bdb76006a18daf1c5142fdb9dda3f8929ee64%22%5D%2C%22tree%22%3A%2294d5dca44c18cf7446e4bd10e6c5aa9b8b81ce7c%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1717610692%2C%22timezoneOffset%22%3A0%7D%7D%7D::Code::code::Code::%7B%22spaceId%22%3A%22%2F.deco%2Fblocks%2FPreview%2520%252Fsections%252FHeader.tsx.json%22%7D",
-          "state": {
-            "__signal": "error"
-          }
-        }
-      }
+      "tabs": {}
     },
     {
       "id": "collections:07ae63fcc4c0",
@@ -1921,7 +1850,8 @@
           },
           "id": "collections%3Acollections%2Fblog%2Fposts%2F90f0d71ed92a::Blog%20%2F%20Posts%20%2F%2090f0d71ed92a::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F90f0d71ed92a.json%5C%22%7D%22%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "collections%3Acollections%2Fblog%2Fposts%2F90f0d71ed92a::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F90f0d71ed92a%5C%22%7D%22%7D": {
@@ -2051,7 +1981,8 @@
           },
           "id": "collections%3Acollections%2Fblog%2Fposts%2F8549957fb9a6::Blog%20%2F%20Posts%20%2F%208549957fb9a6::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F8549957fb9a6.json%5C%22%7D%22%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "collections%3Acollections%2Fblog%2Fposts%2F8549957fb9a6::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F8549957fb9a6%5C%22%7D%22%7D": {
@@ -2642,6 +2573,539 @@
           "id": "%2F.deco%2Fblocks%2FPreview%2520site%252Fsections%252FHero.tsx.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Froutes%2F_app.tsx%22%7D",
           "state": {
             "__signal": "error"
+          }
+        }
+      }
+    },
+    {
+      "id": "collections:f726a93ff63e",
+      "name": "Blog / Posts / f726a93ff63e",
+      "pinned": false,
+      "icon": "article",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections%3Af726a93ff63e::Blog%20%2F%20Posts%20%2F%20f726a93ff63e::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252Ff726a93ff63e.json%5C%22%7D%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3Af726a93ff63e::Blog%20%2F%20Posts%20%2F%20f726a93ff63e::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252Ff726a93ff63e.json%5C%22%7D%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections%3Af726a93ff63e::Blog%20%2F%20Posts%20%2F%20f726a93ff63e::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252Ff726a93ff63e.json%5C%22%7D%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections%3Af726a93ff63e::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2Ff726a93ff63e%5C%22%7D%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3Af726a93ff63e::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2Ff726a93ff63e%5C%22%7D%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections%3Af726a93ff63e::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2Ff726a93ff63e%5C%22%7D%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "collections%3Af726a93ff63e::Blog%20%2F%20Posts%20%2F%20f726a93ff63e::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252Ff726a93ff63e.json%5C%22%7D%22%7D": {
+          "name": "Blog / Posts / f726a93ff63e",
+          "icon": "article",
+          "render": "function",
+          "viewId": "Edit Blog Item",
+          "viewProps": {
+            "spaceId": "{\"path\":[\"post\"],\"filepath\":\"/.deco/blocks/collections%2Fblog%2Fposts%2Ff726a93ff63e.json\"}"
+          },
+          "id": "collections%3Af726a93ff63e::Blog%20%2F%20Posts%20%2F%20f726a93ff63e::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252Ff726a93ff63e.json%5C%22%7D%22%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "collections%3Af726a93ff63e::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2Ff726a93ff63e%5C%22%7D%22%7D": {
+          "name": "Blog Preview",
+          "icon": "article",
+          "render": "function",
+          "viewId": "Blog Preview",
+          "viewProps": {
+            "spaceId": "{\"blockId\":\"collections/blog/posts/f726a93ff63e\"}"
+          },
+          "id": "collections%3Af726a93ff63e::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2Ff726a93ff63e%5C%22%7D%22%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "collections:8549957fb9a6",
+      "name": "Blog / Posts / 8549957fb9a6",
+      "pinned": false,
+      "icon": "article",
+      "layout": [],
+      "tabs": {}
+    },
+    {
+      "id": "{\"oid\":\"8810f89f7a7413b66af6bc663a07e4f0ffc54303\",\"short\":\"8810f89\",\"commit\":{\"message\":\"Release staging environment with 4 changes made by Rodrigo Araujo\\n\",\"parent\":[\"b3bcef2413169e384e881c9248a75989f329c34f\"],\"tree\":\"b89ecd4b3dd076214ab01c77aa9b5b8b102b28c9\",\"author\":{\"name\":\"Rodrigo Araujo\",\"email\":\"rodrigo.araujo@corebiz.ag\",\"timestamp\":1718045970,\"timezoneOffset\":0},\"committer\":{\"name\":\"Rodrigo Araujo\",\"email\":\"rodrigo.araujo@corebiz.ag\",\"timestamp\":1718045970,\"timezoneOffset\":0}}}",
+      "name": "Release 8810f89",
+      "pinned": false,
+      "icon": "rocket",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%7B%22oid%22%3A%228810f89f7a7413b66af6bc663a07e4f0ffc54303%22%2C%22short%22%3A%228810f89%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%204%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%22b3bcef2413169e384e881c9248a75989f329c34f%22%5D%2C%22tree%22%3A%22b89ecd4b3dd076214ab01c77aa9b5b8b102b28c9%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1718045970%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1718045970%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%228810f89f7a7413b66af6bc663a07e4f0ffc54303%22%2C%22short%22%3A%228810f89%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%204%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%22b3bcef2413169e384e881c9248a75989f329c34f%22%5D%2C%22tree%22%3A%22b89ecd4b3dd076214ab01c77aa9b5b8b102b28c9%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1718045970%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1718045970%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%7B%22oid%22%3A%228810f89f7a7413b66af6bc663a07e4f0ffc54303%22%2C%22short%22%3A%228810f89%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%204%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%22b3bcef2413169e384e881c9248a75989f329c34f%22%5D%2C%22tree%22%3A%22b89ecd4b3dd076214ab01c77aa9b5b8b102b28c9%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1718045970%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1718045970%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%7B%22oid%22%3A%228810f89f7a7413b66af6bc663a07e4f0ffc54303%22%2C%22short%22%3A%228810f89%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%204%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%22b3bcef2413169e384e881c9248a75989f329c34f%22%5D%2C%22tree%22%3A%22b89ecd4b3dd076214ab01c77aa9b5b8b102b28c9%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1718045970%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1718045970%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D": {
+          "name": "Release",
+          "icon": "rocket",
+          "render": "function",
+          "viewId": "Release",
+          "id": "%7B%22oid%22%3A%228810f89f7a7413b66af6bc663a07e4f0ffc54303%22%2C%22short%22%3A%228810f89%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%204%20changes%20made%20by%20Rodrigo%20Araujo%5Cn%22%2C%22parent%22%3A%5B%22b3bcef2413169e384e881c9248a75989f329c34f%22%5D%2C%22tree%22%3A%22b89ecd4b3dd076214ab01c77aa9b5b8b102b28c9%22%2C%22author%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1718045970%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Rodrigo%20Araujo%22%2C%22email%22%3A%22rodrigo.araujo%40corebiz.ag%22%2C%22timestamp%22%3A1718045970%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20website%2Factions%2Fsecrets%2Fencrypt.ts.json",
+      "name": "encrypt.ts",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "stack",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "component",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520website%252Factions%252Fsecrets%252Fencrypt.ts.json::Preview::world::Preview::%7B%7D\" />",
+                "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Factions%252Fsecrets%252Fencrypt.ts.json::Preview::world::Preview::%7B%7D",
+                "componentName": "component",
+                "componentState": {
+                  "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Factions%252Fsecrets%252Fencrypt.ts.json::Preview::world::Preview::%7B%7D"
+                }
+              }
+            ],
+            "width": 100,
+            "activeItemIndex": 0
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520website%252Factions%252Fsecrets%252Fencrypt.ts.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Factions%252Fsecrets%252Fencrypt.ts.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20website%2Floaders%2Fpages.ts.json",
+      "name": "pages.ts",
+      "pinned": false,
+      "icon": "file",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Floaders%252Fpages.ts.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520website%252Floaders%252Fpages.ts.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Floaders%252Fpages.ts.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Floaders%252Fpages.ts.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520website%252Floaders%252Fpages.ts.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Floaders%252Fpages.ts.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520website%252Floaders%252Fpages.ts.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Floaders%252Fpages.ts.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520website%252Floaders%252Fpages.ts.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Floaders%252Fpages.ts.json::Code::code::Code::%7B%7D",
+          "state": {
+            "__signal": "error"
+          }
+        }
+      }
+    },
+    {
+      "id": "collections:collections/blog/posts/9a7c4b2fd77e",
+      "name": "Blog / Posts / 9a7c4b2fd77e",
+      "pinned": false,
+      "icon": "article",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections%3Acollections%2Fblog%2Fposts%2F9a7c4b2fd77e::Blog%20%2F%20Posts%20%2F%209a7c4b2fd77e::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F9a7c4b2fd77e.json%5C%22%7D%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3Acollections%2Fblog%2Fposts%2F9a7c4b2fd77e::Blog%20%2F%20Posts%20%2F%209a7c4b2fd77e::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F9a7c4b2fd77e.json%5C%22%7D%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections%3Acollections%2Fblog%2Fposts%2F9a7c4b2fd77e::Blog%20%2F%20Posts%20%2F%209a7c4b2fd77e::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F9a7c4b2fd77e.json%5C%22%7D%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "collections%3Acollections%2Fblog%2Fposts%2F9a7c4b2fd77e::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F9a7c4b2fd77e%5C%22%7D%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3Acollections%2Fblog%2Fposts%2F9a7c4b2fd77e::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F9a7c4b2fd77e%5C%22%7D%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "collections%3Acollections%2Fblog%2Fposts%2F9a7c4b2fd77e::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F9a7c4b2fd77e%5C%22%7D%22%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "collections%3Acollections%2Fblog%2Fposts%2F9a7c4b2fd77e::Blog%20%2F%20Posts%20%2F%209a7c4b2fd77e::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F9a7c4b2fd77e.json%5C%22%7D%22%7D": {
+          "name": "Blog / Posts / 9a7c4b2fd77e",
+          "icon": "article",
+          "render": "function",
+          "viewId": "Edit Blog Item",
+          "viewProps": {
+            "spaceId": "{\"path\":[\"post\"],\"filepath\":\"/.deco/blocks/collections%2Fblog%2Fposts%2F9a7c4b2fd77e.json\"}"
+          },
+          "id": "collections%3Acollections%2Fblog%2Fposts%2F9a7c4b2fd77e::Blog%20%2F%20Posts%20%2F%209a7c4b2fd77e::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F9a7c4b2fd77e.json%5C%22%7D%22%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "collections%3Acollections%2Fblog%2Fposts%2F9a7c4b2fd77e::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F9a7c4b2fd77e%5C%22%7D%22%7D": {
+          "name": "Blog Preview",
+          "icon": "article",
+          "render": "function",
+          "viewId": "Blog Preview",
+          "viewProps": {
+            "spaceId": "{\"blockId\":\"collections/blog/posts/9a7c4b2fd77e\"}"
+          },
+          "id": "collections%3Acollections%2Fblog%2Fposts%2F9a7c4b2fd77e::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F9a7c4b2fd77e%5C%22%7D%22%7D",
+          "state": {
+            "__signal": null
           }
         }
       }
