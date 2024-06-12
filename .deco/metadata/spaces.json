@@ -3145,6 +3145,58 @@
           "popin": "pop in",
           "tabDropdown": "additional tabs"
         },
+        "content": [],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {}
+    },
+    {
+      "id": "collections:f55ebed15d19",
+      "name": "Blog / Posts / f55ebed15d19",
+      "pinned": false,
+      "icon": "article",
+      "layout": [],
+      "tabs": {}
+    },
+    {
+      "id": "collections:collections/blog/posts/492bd9a120bb",
+      "name": "Blog / Posts / 492bd9a120bb",
+      "pinned": false,
+      "icon": "article",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
         "content": [
           {
             "type": "row",
@@ -3161,12 +3213,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "collections%3Acollections%2Fblog%2Fposts%2Ff55ebed15d19::Blog%20%2F%20Posts%20%2F%20f55ebed15d19::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252Ff55ebed15d19.json%5C%22%7D%22%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3Acollections%2Fblog%2Fposts%2Ff55ebed15d19::Blog%20%2F%20Posts%20%2F%20f55ebed15d19::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252Ff55ebed15d19.json%5C%22%7D%22%7D\" />",
+                    "id": "collections%3Acollections%2Fblog%2Fposts%2F492bd9a120bb::Blog%20%2F%20Posts%20%2F%20492bd9a120bb::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F492bd9a120bb.json%5C%22%7D%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3Acollections%2Fblog%2Fposts%2F492bd9a120bb::Blog%20%2F%20Posts%20%2F%20492bd9a120bb::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F492bd9a120bb.json%5C%22%7D%22%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "collections%3Acollections%2Fblog%2Fposts%2Ff55ebed15d19::Blog%20%2F%20Posts%20%2F%20f55ebed15d19::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252Ff55ebed15d19.json%5C%22%7D%22%7D"
+                      "id": "collections%3Acollections%2Fblog%2Fposts%2F492bd9a120bb::Blog%20%2F%20Posts%20%2F%20492bd9a120bb::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F492bd9a120bb.json%5C%22%7D%22%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -3182,12 +3234,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "collections%3Acollections%2Fblog%2Fposts%2Ff55ebed15d19::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2Ff55ebed15d19%5C%22%7D%22%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3Acollections%2Fblog%2Fposts%2Ff55ebed15d19::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2Ff55ebed15d19%5C%22%7D%22%7D\" />",
+                    "id": "collections%3Acollections%2Fblog%2Fposts%2F492bd9a120bb::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F492bd9a120bb%5C%22%7D%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-collections%3Acollections%2Fblog%2Fposts%2F492bd9a120bb::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F492bd9a120bb%5C%22%7D%22%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "collections%3Acollections%2Fblog%2Fposts%2Ff55ebed15d19::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2Ff55ebed15d19%5C%22%7D%22%7D"
+                      "id": "collections%3Acollections%2Fblog%2Fposts%2F492bd9a120bb::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F492bd9a120bb%5C%22%7D%22%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -3204,28 +3256,28 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "collections%3Acollections%2Fblog%2Fposts%2Ff55ebed15d19::Blog%20%2F%20Posts%20%2F%20f55ebed15d19::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252Ff55ebed15d19.json%5C%22%7D%22%7D": {
-          "name": "Blog / Posts / f55ebed15d19",
+        "collections%3Acollections%2Fblog%2Fposts%2F492bd9a120bb::Blog%20%2F%20Posts%20%2F%20492bd9a120bb::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F492bd9a120bb.json%5C%22%7D%22%7D": {
+          "name": "Blog / Posts / 492bd9a120bb",
           "icon": "article",
           "render": "function",
           "viewId": "Edit Blog Item",
           "viewProps": {
-            "spaceId": "{\"path\":[\"post\"],\"filepath\":\"/.deco/blocks/collections%2Fblog%2Fposts%2Ff55ebed15d19.json\"}"
+            "spaceId": "{\"path\":[\"post\"],\"filepath\":\"/.deco/blocks/collections%2Fblog%2Fposts%2F492bd9a120bb.json\"}"
           },
-          "id": "collections%3Acollections%2Fblog%2Fposts%2Ff55ebed15d19::Blog%20%2F%20Posts%20%2F%20f55ebed15d19::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252Ff55ebed15d19.json%5C%22%7D%22%7D",
+          "id": "collections%3Acollections%2Fblog%2Fposts%2F492bd9a120bb::Blog%20%2F%20Posts%20%2F%20492bd9a120bb::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F492bd9a120bb.json%5C%22%7D%22%7D",
           "state": {
             "__signal": null
           }
         },
-        "collections%3Acollections%2Fblog%2Fposts%2Ff55ebed15d19::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2Ff55ebed15d19%5C%22%7D%22%7D": {
+        "collections%3Acollections%2Fblog%2Fposts%2F492bd9a120bb::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F492bd9a120bb%5C%22%7D%22%7D": {
           "name": "Blog Preview",
           "icon": "article",
           "render": "function",
           "viewId": "Blog Preview",
           "viewProps": {
-            "spaceId": "{\"blockId\":\"collections/blog/posts/f55ebed15d19\"}"
+            "spaceId": "{\"blockId\":\"collections/blog/posts/492bd9a120bb\"}"
           },
-          "id": "collections%3Acollections%2Fblog%2Fposts%2Ff55ebed15d19::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2Ff55ebed15d19%5C%22%7D%22%7D",
+          "id": "collections%3Acollections%2Fblog%2Fposts%2F492bd9a120bb::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F492bd9a120bb%5C%22%7D%22%7D",
           "state": {
             "__signal": null
           }
