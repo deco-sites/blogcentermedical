@@ -3614,7 +3614,7 @@
           },
           "id": "collections%3Acollections%2Fblog%2Fposts%2F90f213636907::Blog%20%2F%20Posts%20%2F%2090f213636907::article::Edit%20Blog%20Item::%7B%22spaceId%22%3A%22%7B%5C%22path%5C%22%3A%5B%5C%22post%5C%22%5D%2C%5C%22filepath%5C%22%3A%5C%22%2F.deco%2Fblocks%2Fcollections%252Fblog%252Fposts%252F90f213636907.json%5C%22%7D%22%7D",
           "state": {
-            "__signal": "error"
+            "__signal": null
           }
         },
         "collections%3Acollections%2Fblog%2Fposts%2F90f213636907::Blog%20Preview::article::Blog%20Preview::%7B%22spaceId%22%3A%22%7B%5C%22blockId%5C%22%3A%5C%22collections%2Fblog%2Fposts%2F90f213636907%5C%22%7D%22%7D": {
@@ -3753,6 +3753,14 @@
           }
         }
       }
+    },
+    {
+      "id": "collections:90f213636907",
+      "name": "Blog / Posts / 90f213636907",
+      "pinned": false,
+      "icon": "article",
+      "layout": [],
+      "tabs": {}
     }
   ]
 }
