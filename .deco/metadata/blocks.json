@@ -201,5 +201,9 @@
   "/.deco/blocks/collections%2Fblog%2Fposts%2F3f78a78e88da.json": {
     "blockType": "loaders",
     "__resolveType": "blog/loaders/Blogpost.ts"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fposts%2Fea3bec051264.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Blogpost.ts"
   }
 }
