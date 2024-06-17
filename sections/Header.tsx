@@ -67,7 +67,7 @@ export default function Haader({
     <nav class="container mx-auto lg:px-0 px-4">
       <div class="flex gap-8 items-center justify-between py-4">
         <a href="/">
-          <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
+          <Image src={logo.src || ""} width={200} height={100} alt={logo.alt} />
         </a>
 
         <label
@@ -118,7 +118,7 @@ export default function Haader({
                 <a
                   href={link.url}
                   aria-label={link.label}
-                  class="link no-underline hover:underline p-4 font-['Montserrat']"
+                  class="link no-underline p-4 font-['Montserrat']"
                 >
                   {link.label}
                 </a>
@@ -132,9 +132,7 @@ export default function Haader({
                 id={item?.id}
                 href={item?.href}
                 target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`hover:bg-[#00e275] font-normal btn btn-primary font-['Montserrat'] ${
-                  item.outline && "btn-outline"
-                }`}
+                class={`bg-[#00e275] font-['Montserrat'] text-white py-2 px-4 rounded-[6px] border border-[#00e275] hover:bg-transparent hover:text-[#00e275] ease-in-out block hover:ease-in-out font-bold`}
               >
                 {item?.text}
               </a>
