@@ -83,30 +83,6 @@
     "blockType": "loaders",
     "__resolveType": "blog/loaders/Category.ts"
   },
-  "/.deco/blocks/collections%2Fblog%2Fposts%2F173aa7daa089.json": {
-    "blockType": "loaders",
-    "__resolveType": "blog/loaders/Blogpost.ts"
-  },
-  "/.deco/blocks/collections%2Fblog%2Fposts%2F1c8bb9f3d71d.json": {
-    "blockType": "loaders",
-    "__resolveType": "blog/loaders/Blogpost.ts"
-  },
-  "/.deco/blocks/collections%2Fblog%2Fposts%2F4381a46ca720.json": {
-    "blockType": "loaders",
-    "__resolveType": "blog/loaders/Blogpost.ts"
-  },
-  "/.deco/blocks/collections%2Fblog%2Fposts%2Fcd26860194af.json": {
-    "blockType": "loaders",
-    "__resolveType": "blog/loaders/Blogpost.ts"
-  },
-  "/.deco/blocks/collections%2Fblog%2Fposts%2Fdd41f8121185.json": {
-    "blockType": "loaders",
-    "__resolveType": "blog/loaders/Blogpost.ts"
-  },
-  "/.deco/blocks/collections%2Fblog%2Fposts%2Ff726a93ff63e.json": {
-    "blockType": "loaders",
-    "__resolveType": "blog/loaders/Blogpost.ts"
-  },
   "/.deco/blocks/decohub.json": {
     "blockType": "apps",
     "__resolveType": "site/apps/decohub.ts"
@@ -203,6 +179,10 @@
     "__resolveType": "blog/loaders/Blogpost.ts"
   },
   "/.deco/blocks/collections%2Fblog%2Fposts%2Fea3bec051264.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Blogpost.ts"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fposts%2F36d759dcffa9.json": {
     "blockType": "loaders",
     "__resolveType": "blog/loaders/Blogpost.ts"
   }
