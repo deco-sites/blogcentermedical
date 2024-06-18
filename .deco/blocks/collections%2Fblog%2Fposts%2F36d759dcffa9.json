@@ -1,0 +1,22 @@
+{
+  "name": "collections/blog/posts/36d759dcffa9",
+  "__resolveType": "blog/loaders/Blogpost.ts",
+  "post": {
+    "authors": [
+      {
+        "name": "Comunicação CenterMedical",
+        "jobTitle": "Autor",
+        "company": "centermedical.com.br",
+        "avatar": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/e6cc3519-5934-453a-bc2f-83807270ea6b",
+        "email": "comunicacao@centermedical.com.br"
+      }
+    ],
+    "categories": [],
+    "title": "A Evolução da Retinoscopia ao Longo dos Anos: Da Lâmpada de Querosene ao LED",
+    "excerpt": "A retinoscopia, uma técnica valiosa na oftalmologia, passou por uma notável evolução ao longo dos anos, desde os primeiros métodos rudimentares até as tecnologias avançadas de hoje. Neste artigo, exploraremos essa fascinante jornada, destacando as mudanças significativas que ocorreram desde os primeiros dias da lâmpada de querosene até a introdução do LED.",
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/0022fd96-ea77-4b5e-bea9-351adb804009",
+    "date": "2024-06-18",
+    "slug": "a-evoluçao-da-retinoscopia",
+    "content": "<h3><strong><span style=\"color: rgb(0, 0, 0)\">Lâmpada de Querosene: O Início da Retinoscopia</span></strong></h3><p><span style=\"color: rgb(0, 0, 0)\">O uso da retinoscopia remonta ao século XIX, quando o médico alemão Hermann von Helmholtz desenvolveu o primeiro oftalmoscópio, que também foi utilizado para a técnica de retinoscopia. Naquela época, a fonte de luz utilizada era uma lâmpada de querosene, que proporcionava uma iluminação suficiente para examinar a retina e determinar a refração ocular.</span></p><h3><strong><span style=\"color: rgb(0, 0, 0)\">Avanços na Iluminação: A Era da Eletricidade</span></strong></h3><p><span style=\"color: rgb(0, 0, 0)\">Com o avanço da tecnologia elétrica, a lâmpada de querosene foi substituída por fontes de luz mais eficientes, como lâmpadas incandescentes e halógenas. Essas fontes de luz proporcionavam uma iluminação mais brilhante e estável, melhorando a precisão e a eficácia da retinoscopia.</span></p><h3><strong><span style=\"color: rgb(0, 0, 0)\">Introdução do Retinoscópio de Esquiascopia</span></strong></h3><p><span style=\"color: rgb(0, 0, 0)\">Uma das maiores inovações na retinoscopia foi a introdução do retinoscópio de esquiascopia, que permitia ao oftalmologista examinar a retina em diferentes direções, obtendo informações mais precisas sobre a refração ocular. Essa técnica revolucionou a prática da retinoscopia, tornando-a mais versátil e confiável.</span></p><h3><strong><span style=\"color: rgb(0, 0, 0)\">LED: O Avanço Tecnológico Moderno</span></strong></h3><p><span style=\"color: rgb(0, 0, 0)\">Nos tempos modernos, o LED (Light Emitting Diode) tornou-se a fonte de luz preferida para retinoscópios. Os LEDs oferecem várias vantagens sobre as fontes de luz tradicionais, incluindo uma iluminação mais brilhante, durabilidade aprimorada, consumo de energia reduzido e uma vida útil mais longa. Além disso, os LEDs podem ser ajustados para fornecer diferentes temperaturas de cor, melhorando a qualidade da iluminação durante os exames.</span></p><h3><strong><span style=\"color: rgb(0, 0, 0)\">Conclusão</span></strong></h3><p><span style=\"color: rgb(0, 0, 0)\">A evolução da retinoscopia ao longo dos anos é um testemunho do progresso da ciência e da tecnologia na oftalmologia. Desde os dias da lâmpada de querosene até os avanços modernos do LED, a retinoscopia continua a desempenhar um papel vital na avaliação da saúde ocular e na prescrição de correções visuais. Com a constante inovação e aprimoramento das técnicas e equipamentos, podemos esperar ainda mais avanços emocionantes no campo da retinoscopia no futuro.</span></p><p><span style=\"color: rgb(0, 0, 0)\">Se você tem interesse em aprender mais sobre a retinoscopia e outras técnicas oftalmológicas, continue acompanhando nosso blog para mais conteúdos informativos e atualizados.</span></p><p><br></p>"
+  }
+}
