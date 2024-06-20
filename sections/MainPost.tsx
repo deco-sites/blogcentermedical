@@ -63,7 +63,7 @@ export default function MainPost({
           <div class="p-6 space-y-4">
             <div class="space-y-2">
               <h3 class="text-2xl">{post.title}</h3>
-              <p class="text-base">{post.excerpt}</p>
+              <p class="text-base font-['Montserrat']">{post.excerpt}</p>
             </div>
             <div class="flex flex-wrap gap-2">
               {post.categories?.map((category) => (
@@ -72,7 +72,7 @@ export default function MainPost({
                 </div>
               ))}
             </div>
-            <div class="flex flex-wrap gap-2">
+            <div class="flex flex-wrap gap-2 font-['Montserrat']">
                   <span>{post.date
                     ? new Date(post.date).toLocaleDateString("en-US", {
                       month: "long",

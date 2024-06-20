@@ -86,7 +86,7 @@ export default function Footer({
       "By subscribing you agree to with our <a href='/' target='_blank' class='link'>Privacy Policy</a> and provide consent to receive updates from our company.",
   },
   madeWith = {
-    label: "Made with",
+    label: "Feito por",
     src:
       "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/f09386a1-9f67-4f1a-99f7-483b05c65723",
     href: "https://www.centermedical.com.br",
@@ -112,8 +112,8 @@ export default function Footer({
           <div>
             <Image
               src={logo.src || ""}
-              width={100}
-              height={28}
+              width={200}
+              height={100}
               alt={logo.alt}
             />
           </div>
@@ -132,7 +132,7 @@ export default function Footer({
               </div>
             ))}
           </div>
-          <div class="lg:w-[40%]">
+          {/* <div class="lg:w-[40%]">
             <h4 class="font-semibold mb-4">{subscribe?.title}</h4>
             <form class="flex flex-col gap-4">
               <p class="font-normal">{subscribe.description}</p>
@@ -152,7 +152,7 @@ export default function Footer({
               >
               </p>
             </form>
-          </div>
+          </div> */}
         </div>
         <div class="border-primary border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
           <div class="flex flex-col gap-4 items-center lg:flex-row lg:gap-6">
@@ -160,8 +160,8 @@ export default function Footer({
               <span>{madeWith?.label}</span>
               <Image
                 src={madeWith?.src || ""}
-                width={100}
-                height={28}
+                width={200}
+                height={100}
                 alt={madeWith?.label}
               />
             </a>

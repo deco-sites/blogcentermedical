@@ -67,7 +67,7 @@ export default function HeroFlats({
               }}
             >
             </div>
-            <p class="leading-[150%] md:text-md text-lg">
+            <p class="leading-[150%] md:text-md text-lg font-['Montserrat']">
               {description}
             </p>
             {cta && cta.length > 0 &&

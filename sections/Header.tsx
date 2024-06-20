@@ -64,84 +64,84 @@ export default function Haader({
   },
 }: Nav) {
   return (
-    <nav class="container mx-auto lg:px-0 px-4">
-      <div class="flex gap-8 items-center justify-between py-4">
-        <a href="/">
-          <Image src={logo.src || ""} width={100} height={28} alt={logo.alt} />
-        </a>
+    <header class="bg-[#101728]">
+      <nav class="container mx-auto lg:px-0 px-4">
+        <div class="flex gap-8 items-center justify-between py-4">
+          <a href="/">
+            <Image src={logo.src || ""} width={200} height={100} alt={logo.alt} />
+          </a>
 
-        <label
-          class="cursor-pointer lg:hidden pt-6 relative z-40"
-          for="menu-mobile"
-        >
-          <input class="hidden peer" type="checkbox" id="menu-mobile" />
-          {lineStyles.map((style, index) => (
-            <div key={index} class={`relative ${style}`}></div>
-          ))}
-          <div class="backdrop-blur-sm bg-black/50 fixed h-full hidden inset-0 peer-checked:block w-full z-40">
-            &nbsp;
-          </div>
-          <div class="duration-500 fixed h-full overflow-y-auto overscroll-y-none peer-checked:translate-x-0 right-0 top-0 transition translate-x-full w-full z-40">
-            <div class="bg-base-100 flex flex-col float-right gap-8 min-h-full pt-12 px-6 shadow-2xl w-1/2">
-              <ul class="flex flex-col gap-8">
-                {navigation?.links.map((link) => (
-                  <li>
-                    <a href={link.url} aria-label={link.label}>
-                      {link.label}
-                    </a>
-                  </li>
-                ))}
-              </ul>
-              <ul class="flex items-center gap-3">
-                {navigation.buttons?.map((item) => (
-                  <a
-                    key={item?.id}
-                    id={item?.id}
-                    href={item?.href}
-                    target={item?.href.includes("http") ? "_blank" : "_self"}
-                    class={`font-normal btn btn-primary ${
-                      item.outline && "btn-outline"
-                    }`}
-                  >
-                    {item?.text}
-                  </a>
-                ))}
-              </ul>
+          <label
+            class="cursor-pointer lg:hidden pt-6 relative z-40"
+            for="menu-mobile"
+          >
+            <input class="hidden peer" type="checkbox" id="menu-mobile" />
+            {lineStyles.map((style, index) => (
+              <div key={index} class={`relative ${style}`}></div>
+            ))}
+            <div class="backdrop-blur-sm bg-black/50 fixed h-full hidden inset-0 peer-checked:block w-full z-40">
+              &nbsp;
             </div>
-          </div>
-        </label>
+            <div class="duration-500 fixed h-full overflow-y-auto overscroll-y-none peer-checked:translate-x-0 right-0 top-0 transition translate-x-full w-full z-40">
+              <div class="bg-base-100 flex flex-col float-right gap-8 min-h-full pt-12 px-6 shadow-2xl w-1/2">
+                <ul class="flex flex-col gap-8">
+                  {navigation?.links.map((link) => (
+                    <li>
+                      <a href={link.url} aria-label={link.label}>
+                        {link.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+                <ul class="flex items-center gap-3">
+                  {navigation.buttons?.map((item) => (
+                    <a
+                      key={item?.id}
+                      id={item?.id}
+                      href={item?.href}
+                      target={item?.href.includes("http") ? "_blank" : "_self"}
+                      class={`font-normal btn btn-primary ${
+                        item.outline && "btn-outline"
+                      }`}
+                    >
+                      {item?.text}
+                    </a>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </label>
 
-        <ul class="hidden items-center justify-between lg:flex w-full">
-          <ul class="flex">
-            {navigation.links.map((link) => (
-              <li>
+          <ul class="hidden items-center justify-between lg:flex w-full">
+            <ul class="flex">
+              {navigation.links.map((link) => (
+                <li>
+                  <a
+                    href={link.url}
+                    aria-label={link.label}
+                    class="link no-underline p-4 font-['Montserrat'] text-white"
+                  >
+                    {link.label}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            <ul class="flex gap-3">
+              {navigation.buttons?.map((item) => (
                 <a
-                  href={link.url}
-                  aria-label={link.label}
-                  class="link no-underline hover:underline p-4 font-['Montserrat']"
+                  key={item?.id}
+                  id={item?.id}
+                  href={item?.href}
+                  target={item?.href.includes("http") ? "_blank" : "_self"}
+                  class={`bg-[#00e275] font-['Montserrat'] text-white py-2 px-4 rounded-[6px] border border-[#00e275] hover:bg-transparent hover:text-[#00e275] ease-in-out block hover:ease-in-out font-bold`}
                 >
-                  {link.label}
+                  {item?.text}
                 </a>
-              </li>
-            ))}
+              ))}
+            </ul>
           </ul>
-          <ul class="flex gap-3">
-            {navigation.buttons?.map((item) => (
-              <a
-                key={item?.id}
-                id={item?.id}
-                href={item?.href}
-                target={item?.href.includes("http") ? "_blank" : "_self"}
-                class={`hover:bg-[#00e275] font-normal btn btn-primary font-['Montserrat'] ${
-                  item.outline && "btn-outline"
-                }`}
-              >
-                {item?.text}
-              </a>
-            ))}
-          </ul>
-        </ul>
-      </div>
-    </nav>
+        </div>
+      </nav>
+    </header>
   );
 }
