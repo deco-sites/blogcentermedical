@@ -8,11 +8,11 @@ interface Props {
   page?: BlogPostPage | null;
 }
 
-const PARAGRAPH_STYLES = "[&_p]:leading-[150%] [&_*]:mb-4";
+const PARAGRAPH_STYLES = "[&_p]:leading-[150%] [&_*]:mb-4 font-['Montserrat']";
 const HEADING_STYLES =
   "[&>h1]:text-4xl [&>h1]:my-6 [&>h1]:font-bold [&>h2]:text-3xl [&>h2]:my-6 [&>h2]:font-bold [&>h3]:text-2xl [&>h3]:my-6 [&>h3]:font-bold [&>h4]:text-xl [&>h4]:my-6 [&>h4]:font-bold [&>h5]:text-lg [&>h5]:my-6 [&>h5]:font-bold [&>h6]:text-base [&>h6]:my-6 [&>h6]:font-bold";
 const CODE_BLOCK_STYLES =
-  "[&>pre]:bg-gray-100 [&>pre]:text-gray-800 [&>pre]:p-4 [&>pre]:font-mono [&>pre]:text-sm [&>pre]:border [&>pre]:rounded-md [&>pre]:overflow-x-auto [&>code]:block [&>code]:w-full";
+  "[&>pre]:bg-gray-100 [&>pre]:text-gray-800 [&>pre]:p-4 font-['Montserrat'] [&>pre]:text-sm [&>pre]:border [&>pre]:rounded-md [&>pre]:overflow-x-auto [&>code]:block [&>code]:w-full";
 const IMAGE_STYLES = "[&_img]:rounded-2xl [&_img]:w-full [&_img]:my-12";
 const BLOCKQUOTE_STYLES =
   "[&>blockquote]:my-6 [&>blockquote]:border-l-2 [&>blockquote]:border-black [&>blockquote]:text-xl [&>blockquote]:italic [&>blockquote]:pl-6";
@@ -151,7 +151,7 @@ export default function BlogPost({ page }: Props) {
         }}
       ></div>
       <div class="flex flex-col gap-10 max-w-3xl w-full mx-auto">
-        <div class="space-y-4">
+        {/* <div class="space-y-4">
           <p class="text-lg font-bold">Share this post</p>
           <div class="flex flex-col gap-8 md:flex-row justify-between">
             <SocialIcons />
@@ -167,7 +167,7 @@ export default function BlogPost({ page }: Props) {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* divider zinc-300 */}
         <div class="w-full h-px bg-zinc-300"></div>
         <div className="flex items-center gap-4">

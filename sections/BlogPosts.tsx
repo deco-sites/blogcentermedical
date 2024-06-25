@@ -233,10 +233,10 @@ export default function BlogPosts({
               class="border border-secondary overflow-hidden rounded-lg"
             >
               <Image
-                width={380}
-                height={274}
-                class="object-fit w-full"
-                sizes="(max-width: 640px) 100vw, 30vw"
+                width={291}
+                height={221}
+                class="object-cover w-full h-[221px]"
+                sizes="291px, 221px"
                 src={post.image || ""}
                 alt={post.image}
                 decoding="async"
@@ -246,7 +246,7 @@ export default function BlogPosts({
                 <div class="font-semibold">{calculateReadingTime(post.content.split(" ").length)}</div>
                 <div class="space-y-2">
                   <h3 class="text-2xl">{post.title}</h3>
-                  <p class="text-base font-['Montserrat']">{post.excerpt}</p>
+                  <p class="text-base font-['Montserrat'] line-clamp-3">{post.excerpt}</p>
                 </div>
                 <div class="flex flex-wrap gap-2">
                   {post.categories?.map((category) => (
