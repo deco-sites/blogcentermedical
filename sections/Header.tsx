@@ -49,7 +49,7 @@ const lineStyles = [
 export default function Haader({
   logo = {
     src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/7c6545a7-dd03-44c3-b499-14c7084bf70a",
+      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/e7e9dcac-87b1-4656-9e1a-1d1ec04c7d0d",
     alt: "Logo",
   },
   navigation = {
@@ -67,23 +67,23 @@ export default function Haader({
     <header class="bg-[#101728]">
       <nav class="container mx-auto lg:px-0 px-4">
         <div class="flex gap-8 items-center justify-between py-4">
-          <a href="/">
-            <Image src={logo.src || ""} width={200} height={100} alt={logo.alt} />
+          <a href="/" class="flex w-52 h-auto">
+            <Image src={logo.src || ""} alt={logo.alt} class="object-contain w-full h-auto" />
           </a>
 
           <label
-            class="cursor-pointer lg:hidden pt-6 relative z-40"
+            class="cursor-pointer lg:hidden pt-3 relative z-40"
             for="menu-mobile"
           >
-            <input class="hidden peer" type="checkbox" id="menu-mobile" />
+            <input class="hidden peer bg-white" type="checkbox" id="menu-mobile" />
             {lineStyles.map((style, index) => (
-              <div key={index} class={`relative ${style}`}></div>
+              <div key={index} class={`relative ${style} bg-white peer-checked:bg-black`}></div>
             ))}
             <div class="backdrop-blur-sm bg-black/50 fixed h-full hidden inset-0 peer-checked:block w-full z-40">
               &nbsp;
             </div>
             <div class="duration-500 fixed h-full overflow-y-auto overscroll-y-none peer-checked:translate-x-0 right-0 top-0 transition translate-x-full w-full z-40">
-              <div class="bg-base-100 flex flex-col float-right gap-8 min-h-full pt-12 px-6 shadow-2xl w-1/2">
+              <div class="bg-base-100 flex flex-col float-right gap-8 min-h-full pt-12 px-6 shadow-2xl w-2/3">
                 <ul class="flex flex-col gap-8">
                   {navigation?.links.map((link) => (
                     <li>
@@ -100,9 +100,7 @@ export default function Haader({
                       id={item?.id}
                       href={item?.href}
                       target={item?.href.includes("http") ? "_blank" : "_self"}
-                      class={`font-normal btn btn-primary ${
-                        item.outline && "btn-outline"
-                      }`}
+                      class={`bg-[#00e275] font-['Montserrat'] text-[#101728] py-2 px-4 rounded-[6px] border border-[#00e275] ease-in-out block text-sm tracking-wider transition`}
                     >
                       {item?.text}
                     </a>
