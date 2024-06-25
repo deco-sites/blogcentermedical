@@ -49,7 +49,7 @@ const lineStyles = [
 export default function Haader({
   logo = {
     src:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/f09386a1-9f67-4f1a-99f7-483b05c65723",
+      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/7c6545a7-dd03-44c3-b499-14c7084bf70a",
     alt: "Logo",
   },
   navigation = {
@@ -119,7 +119,7 @@ export default function Haader({
                   <a
                     href={link.url}
                     aria-label={link.label}
-                    class="link no-underline p-4 font-['Montserrat'] text-white"
+                    class="link no-underline p-4 font-['Montserrat'] text-white text-sm"
                   >
                     {link.label}
                   </a>
@@ -133,7 +133,7 @@ export default function Haader({
                   id={item?.id}
                   href={item?.href}
                   target={item?.href.includes("http") ? "_blank" : "_self"}
-                  class={`bg-[#00e275] font-['Montserrat'] text-white py-2 px-4 rounded-[6px] border border-[#00e275] hover:bg-transparent hover:text-[#00e275] ease-in-out block hover:ease-in-out font-bold`}
+                  class={`bg-[#00e275] font-['Montserrat'] text-[#101728] py-2 px-4 rounded-[6px] border border-[#00e275] hover:bg-transparent hover:text-[#00e275] ease-in-out block hover:ease-in-out text-sm tracking-wider transition`}
                 >
                   {item?.text}
                 </a>
