@@ -40,7 +40,7 @@ const DEFAULT_IMAGE =
 
 function Container({ children }: { children: ComponentChildren }) {
   return (
-    <div class="container lg:mx-auto lg:py-14 mx-2 py-12 text-sm">
+    <div class="container lg:mx-auto lg:py-14 py-12 text-sm">
       <div class="space-y-8">{children}</div>
     </div>
   );
@@ -230,7 +230,7 @@ export default function BlogPosts({
           {posts.slice(from, to).map((post) => (
             <a
               href={`/blog/${post.slug}`}
-              class="border border-secondary overflow-hidden rounded-lg"
+              class="border border-secondary overflow-hidden rounded-lg max-[1020px]:w-11/12 max-[1020px]:mx-auto"
             >
               <Image
                 width={291}
