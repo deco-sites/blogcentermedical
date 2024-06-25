@@ -1,0 +1,22 @@
+{
+  "name": "Posts",
+  "path": "/posts",
+  "sections": [
+    {
+      "__resolveType": "New-Header"
+    },
+    {
+      "__resolveType": "Preview site/sections/Hero.tsx"
+    },
+    {
+      "__resolveType": "Preview /sections/BlogPosts.tsx"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
