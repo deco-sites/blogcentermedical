@@ -109,13 +109,8 @@ export default function Footer({
     <div class=" pt-16 text-sm bg-[#101728]">
       <div class="flex flex-col gap-20 lg:container lg:mx-auto md:max-w-6xl mx-4">
         <div class="flex flex-col gap-6 justify-between lg:flex-row">
-          <div>
-            <Image
-              src={logo.src || ""}
-              width={200}
-              height={100}
-              alt={logo.alt}
-            />
+          <div class="flex w-52 h-auto">
+            <Image src={logo.src || ""} alt={logo.alt} class="object-contain w-full h-auto" />
           </div>
           <div class="flex gap-9">
             {links?.map((link) => (
@@ -156,13 +151,12 @@ export default function Footer({
         </div>
         <div class="border-[#ffffff] border-t flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center py-8">
           <div class="flex flex-col gap-4 items-center lg:flex-row lg:gap-6">
-            <a href={madeWith?.href} class="flex items-center gap-2 text-white font-['Montserrat']" target="_blank">
+            <a href={madeWith?.href} class="flex items-center gap-2 text-white font-['Montserrat']"  class="flex w-52 h-auto" target="_blank">
               <span>{madeWith?.label}</span>
               <Image
                 src={madeWith?.src || ""}
-                width={200}
-                height={100}
                 alt={madeWith?.label}
+                class="object-contain w-full h-auto"
               />
             </a>
             <span class="text-white font-['Montserrat']">{copyright}</span>
