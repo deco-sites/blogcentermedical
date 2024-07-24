@@ -269,5 +269,9 @@
   "/.deco/blocks/collections%2Fblog%2Fposts%2F0761b0695685.json": {
     "blockType": "loaders",
     "__resolveType": "blog/loaders/Blogpost.ts"
+  },
+  "/.deco/blocks/collections%2Fblog%2Fcategories%2F8cc6b62445af.json": {
+    "blockType": "loaders",
+    "__resolveType": "blog/loaders/Category.ts"
   }
 }

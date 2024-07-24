@@ -1,0 +1,8 @@
+{
+  "name": "collections/blog/categories/8cc6b62445af",
+  "__resolveType": "blog/loaders/Category.ts",
+  "category": {
+    "name": "Posts",
+    "slug": "/posts"
+  }
+}
