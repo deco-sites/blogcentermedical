@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "O Que é um Retinoscópio e Como Ele Funciona?",
     "excerpt": "O retinoscópio é um instrumento fundamental na prática oftalmológica, utilizado para avaliar a refração ocular e determinar a prescrição correta de óculos ou lentes de contato. Ele funciona emitindo um feixe de luz na direção da retina do paciente e observando o reflexo que retorna.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/745e940e-897d-418f-b395-8b691f514760",

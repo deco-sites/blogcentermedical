@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "O Que é uma Autoclave e Como Funciona?",
     "excerpt": "A autoclave é um equipamento fundamental em diversas áreas, especialmente na medicina, odontologia, laboratórios e até mesmo na indústria alimentícia. Sua principal função é esterilizar instrumentos e materiais, eliminando todos os tipos de micro-organismos, como bactérias, vírus, fungos e esporos. Mas como exatamente ela realiza essa tarefa? Vamos descobrir!",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/ef4dd608-69df-46dc-94ed-ae61219436ac",

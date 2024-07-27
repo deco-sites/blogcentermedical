@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Guia Completo para Escolher o Melhor Estetoscópio para Você",
     "excerpt": "Escolher o estetoscópio certo é uma decisão crucial para qualquer profissional de saúde. Com tantas opções disponíveis no mercado, pode ser difícil saber por onde começar. Este guia completo ajudará você a entender os diferentes tipos de estetoscópios, suas características e como escolher o melhor para suas necessidades específicas.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/84e85c19-a221-40ce-9dfe-1a40598fba4e",
