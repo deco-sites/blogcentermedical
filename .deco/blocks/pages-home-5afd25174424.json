@@ -20,7 +20,8 @@
     },
     {
       "__resolveType": "site/sections/Logos.tsx",
-      "logos": []
+      "logos": [],
+      "title": "Seu marketplace da saúde"
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
