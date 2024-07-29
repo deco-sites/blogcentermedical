@@ -1,0 +1,24 @@
+{
+  "name": "Quem Somos",
+  "path": "/quem-somos",
+  "sections": [
+    {
+      "__resolveType": "website/sections/Seo/SeoV2.tsx",
+      "title": "Nossa História",
+      "titleTemplate": "| %s",
+      "description": "Conheça nossa missão de oferecer as melhores soluções em saúde para hospitais, clínicas e profissionais da área.",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/0cea3fe7-4320-4e1c-8322-8406b0d100e6",
+      "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/0cea3fe7-4320-4e1c-8322-8406b0d100e6"
+    },
+    {
+      "__resolveType": "New-Header"
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

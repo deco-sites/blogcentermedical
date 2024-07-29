@@ -273,5 +273,11 @@
   "/.deco/blocks/collections%2Fblog%2Fcategories%2F8cc6b62445af.json": {
     "blockType": "loaders",
     "__resolveType": "blog/loaders/Category.ts"
+  },
+  "/.deco/blocks/pages-Quem%2520Somos-879684.json": {
+    "name": "Quem Somos",
+    "path": "/quem-somos",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
