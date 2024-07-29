@@ -14,6 +14,14 @@
       "__resolveType": "New-Header"
     },
     {
+      "__resolveType": "site/sections/Hero.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/637c7bdd-e03e-4b49-86ad-5e14e967a363"
+    },
+    {
+      "__resolveType": "site/sections/RichText.tsx",
+      "content": "<p>Somos um marketplace de produtos e serviços para saúde, atuando em todo o Brasil desde 2010. Nossa especialidade é fornecer soluções para <strong>hospitais</strong>, <strong>laboratórios</strong>, <strong>clínicas</strong>, <strong>consultórios</strong>, <strong>academias</strong>, <strong>centros de estética, profissionais da saúde </strong>e <strong>pessoas interessadas em bem-estar</strong>. Nosso principal objetivo é garantir a satisfação dos clientes. Ao longo dos últimos 14 anos, não apenas conquistamos clientes, mas também estabelecemos verdadeiras parcerias de negócios.<br>Seja bem-vindo à <strong>CENTERMEDICAL</strong>.</p><p><br data-mce-bogus=\"1\"></p><p><br data-mce-bogus=\"1\"></p>"
+    },
+    {
       "__resolveType": "Footer"
     }
   ],
