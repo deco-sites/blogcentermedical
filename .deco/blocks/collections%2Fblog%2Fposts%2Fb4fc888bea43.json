@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "posts"
+      }
+    ],
     "title": "Carros de Emergência em Ambientes Hospitalares: Equipamentos Essenciais para Atendimento Rápido e Eficiente",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/a9fbe4e0-f7e8-4041-a0dd-7406143a8909",
     "excerpt": "Os carros de emergência desempenham um papel vital nos hospitais e unidades de saúde, oferecendo uma maneira rápida e eficaz de fornecer suprimentos médicos essenciais durante situações críticas.",
