@@ -278,9 +278,9 @@
     "blockType": "sections",
     "__resolveType": "site/sections/BlogPosts.tsx"
   },
-  "/.deco/blocks/pages-Todos%2520as%2520postagens-129878.json": {
-    "name": "Todos as postagens",
-    "path": "/posts",
+  "/.deco/blocks/pages-Posts-45431.json": {
+    "name": "Posts",
+    "path": "/:slug",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }
