@@ -6,7 +6,14 @@
       "__resolveType": "New-Header"
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx"
+      "__resolveType": "site/sections/Hero.tsx",
+      "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/637c7bdd-e03e-4b49-86ad-5e14e967a363"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "cta": {
+        "text": "Ver mais"
+      }
     },
     {
       "__resolveType": "Footer"
