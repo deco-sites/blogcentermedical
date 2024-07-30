@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Modelos Anatômicos para Fisioterapia: Visualizando Estruturas Musculoesqueléticas e Movimentos Corporais",
     "date": "2024-06-14",
     "slug": "modelos-anatomicos-para-fisioterapia",

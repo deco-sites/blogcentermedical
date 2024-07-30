@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "A Evolução da Retinoscopia ao Longo dos Anos: Da Lâmpada de Querosene ao LED",
     "excerpt": "A retinoscopia, uma técnica valiosa na oftalmologia, passou por uma notável evolução ao longo dos anos, desde os primeiros métodos rudimentares até as tecnologias avançadas de hoje. Neste artigo, exploraremos essa fascinante jornada, destacando as mudanças significativas que ocorreram desde os primeiros dias da lâmpada de querosene até a introdução do LED.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/0022fd96-ea77-4b5e-bea9-351adb804009",

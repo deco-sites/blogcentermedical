@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Como Escolher o Microscópio Ideal para suas Necessidades de Laboratório",
     "excerpt": "A escolha do microscópio adequado para suas necessidades de laboratório é crucial para garantir resultados precisos e eficazes em sua pesquisa ou trabalho. Neste artigo, exploraremos os principais fatores a serem considerados ao selecionar o microscópio ideal para suas aplicações específicas.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/57984f3c-5a96-4386-870a-360d74b5ced9",

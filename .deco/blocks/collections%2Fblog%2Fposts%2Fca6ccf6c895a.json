@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Carros de Medicamentos em Ambientes Hospitalares: Organização e Eficiência na Distribuição de Medicamentos",
     "excerpt": "Os carros de medicamentos são elementos essenciais em qualquer ambiente hospitalar, desempenhando um papel crucial na organização e distribuição eficiente de medicamentos para os pacientes. ",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/a62542dd-41ed-4447-b7fd-6dc9ae5108a4",

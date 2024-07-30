@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Manutenção e Cuidados Essenciais com seu Estetoscópio",
     "excerpt": "O estetoscópio é uma ferramenta essencial para profissionais de saúde, e sua manutenção adequada é fundamental para garantir um desempenho preciso e duradouro. Neste guia, vamos abordar os cuidados essenciais que você deve ter com seu estetoscópio para mantê-lo em ótimas condições de funcionamento.",
     "date": "2024-06-12",

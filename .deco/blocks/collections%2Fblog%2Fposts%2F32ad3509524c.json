@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "O Que é um Dermatoscópio e Como Ele Funciona?",
     "excerpt": "O dermatoscópio é uma ferramenta indispensável na dermatologia, oferecendo uma visão ampliada e detalhada da pele que facilita o diagnóstico de diversas condições dermatológicas. Este artigo, aborda o que é um dermatoscópio, como ele funciona, suas aplicações clínicas e a importância de seu uso na prática médica.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/50e04392-d601-47ea-9c1b-3b5f33daf425",

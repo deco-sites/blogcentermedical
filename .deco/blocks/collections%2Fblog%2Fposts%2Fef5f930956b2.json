@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Os Benefícios de Móveis Hospitalares Ergonômicos para Pacientes e Profissionais de Saúde",
     "excerpt": "A ergonomia é um aspecto fundamental na escolha de móveis hospitalares, pois influencia diretamente a saúde e o bem-estar dos pacientes e profissionais de saúde. Móveis ergonômicos são projetados para oferecer suporte adequado ao corpo, prevenir lesões e proporcionar conforto, promovendo um ambiente de cuidados mais eficiente e seguro. Neste artigo, exploramos os benefícios dos móveis hospitalares ergonômicos e como eles impactam positivamente a rotina hospitalar.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/81e5de06-aeb0-40b4-969c-50d859eb9cc9",

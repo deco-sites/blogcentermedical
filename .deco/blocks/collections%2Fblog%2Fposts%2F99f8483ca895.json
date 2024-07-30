@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Modelos Anatômicos de Órgãos: Uma Abordagem Detalhada para o Estudo da Fisiologia Humana",
     "excerpt": "Os modelos anatômicos de órgãos desempenham um papel crucial no estudo da fisiologia humana, permitindo uma compreensão detalhada da estrutura e função dos órgãos do corpo humano. Neste artigo, exploraremos como esses modelos podem ser utilizados para aprofundar o conhecimento sobre a fisiologia humana e facilitar o aprendizado em ambientes educacionais e clínicos.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/03d996e0-1541-437a-8811-a4aa0a77fe62",

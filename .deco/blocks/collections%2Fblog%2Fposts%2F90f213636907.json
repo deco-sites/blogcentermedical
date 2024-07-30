@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Tipos de Modelos Anatômicos: Uma Visão Geral das Opções Disponíveis",
     "date": "2024-06-14",
     "slug": "tipos-de-modelos-anatomicos",

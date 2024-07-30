@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Carros de Padiola: Versatilidade e Segurança no Transporte de Pacientes",
     "excerpt": "Os carros de padiola são equipamentos essenciais em ambientes hospitalares, oferecendo uma solução segura e eficaz para o transporte de pacientes dentro das instalações médicas. ",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/7df95dca-ac99-49a3-9619-6261cdf30796",

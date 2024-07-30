@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Acuidade Visual: Compreendendo sua Importância e Métodos de Avaliação",
     "excerpt": "A acuidade visual é um aspecto fundamental da saúde ocular, crucial para diagnosticar e tratar diversas condições oftalmológicas. Neste artigo, exploramos a importância da acuidade visual, os métodos de avaliação e como os profissionais da saúde podem utilizar essas informações para melhorar o cuidado com os pacientes.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/32ebc9d9-61cb-45cb-98b9-e37795c13815",

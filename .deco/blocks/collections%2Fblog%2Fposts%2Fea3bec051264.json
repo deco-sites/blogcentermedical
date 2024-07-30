@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Muletas e Reabilitação: Como Recuperar a Mobilidade Após uma Lesão",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/29636a86-ab53-4a76-bab7-92ede832e4f6",
     "excerpt": "Lesões podem ser desafiadoras, mas com o uso adequado de muletas e um plano de reabilitação bem estruturado, é possível recuperar a mobilidade e retomar as atividades diárias. Neste artigo, vamos explorar como as muletas podem desempenhar um papel vital na reabilitação após uma lesão, fornecendo conforto, apoio e independência durante o processo de recuperação.",

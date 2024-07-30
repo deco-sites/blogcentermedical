@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Berço Hospitalar: Funcionalidade e Importância no Cuidado Neonatal",
     "excerpt": "No ambiente hospitalar, a escolha de móveis adequados é crucial para garantir a segurança e o bem-estar dos pacientes. Entre esses móveis, o berço hospitalar ocupa um lugar de destaque, especialmente no cuidado neonatal.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/73a12554-cbf9-4b9f-88cc-51b24638620f",

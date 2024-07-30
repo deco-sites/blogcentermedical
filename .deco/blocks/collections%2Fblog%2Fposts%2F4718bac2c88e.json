@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Soluções Personalizadas: Adaptando Móveis Hospitalares para Diferentes Ambientes de Cuidados de Saúde",
     "excerpt": "Cada ambiente de saúde possui necessidades e demandas específicas quando se trata de móveis hospitalares. Desde hospitais de grande porte até clínicas especializadas e unidades de cuidados prolongados, a personalização dos móveis hospitalares pode otimizar a eficiência do atendimento, melhorar o conforto dos pacientes e facilitar o trabalho dos profissionais de saúde. ",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/4c7bb704-663a-42f0-a7c2-51ff09f18a75",

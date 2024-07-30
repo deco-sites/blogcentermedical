@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Guia Completo para Escolher Modelos Anatômicos para Estudo e Demonstração",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/9ec720e1-5379-41a0-8b2a-a422b9bd3099",
     "date": "2024-06-17",

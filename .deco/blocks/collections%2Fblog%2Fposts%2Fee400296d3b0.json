@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Camas Manuais Hospitalares: Funcionalidades, Vantagens e Como Escolher a Melhor Opção",
     "excerpt": "No ambiente hospitalar, a escolha dos móveis adequados é crucial para garantir a eficiência no atendimento e o conforto dos pacientes. As camas manuais hospitalares, apesar dos avanços tecnológicos, continuam sendo uma opção viável e vantajosa para muitas instituições de saúde. ",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/fadd13a9-05bb-47cf-ab24-c1c5ddb80713",

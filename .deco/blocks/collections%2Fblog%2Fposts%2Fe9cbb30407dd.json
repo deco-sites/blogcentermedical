@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Armários Hospitalares: A Importância e Funcionalidade na Organização de Espaços de Saúde",
     "excerpt": "Os móveis hospitalares desempenham um papel crucial na organização e eficiência das unidades de saúde, e os armários hospitalares são peças fundamentais nesse contexto. ",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/e3990331-6b86-4fcf-90e7-81c3083b17b4",

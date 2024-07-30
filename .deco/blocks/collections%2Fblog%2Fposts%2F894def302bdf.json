@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Cardioversores vs. Desfibriladores: Qual é a Diferença?",
     "excerpt": "Quando se trata de emergências cardíacas e o tratamento de arritmias, dois dispositivos médicos são frequentemente mencionados: cardioversores e desfibriladores. Embora ambos sejam vitais para salvar vidas e restaurar o ritmo cardíaco normal, existem diferenças importantes entre eles que os profissionais da saúde devem conhecer. Este artigo otimizado para SEO esclarecerá essas diferenças, destacando a funcionalidade, uso clínico e características de cada dispositivo.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/38d7177d-70e9-423b-b2c7-f83fc9e27c88",

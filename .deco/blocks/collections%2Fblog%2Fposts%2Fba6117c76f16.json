@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Cadeiras de Rodas: Guia para Escolher a Mais Adequada às Suas Necessidades",
     "excerpt": "Encontrar a cadeira de rodas ideal pode significar a diferença entre mobilidade confortável e limitações físicas. Aqui está um guia para ajudá-lo a escolher a cadeira de rodas mais adequada às suas necessidades individuais:",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/4ac3f302-6cf5-4646-a986-232fbf659716",

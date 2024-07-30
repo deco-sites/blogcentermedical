@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Guia Completo para Entender seu Aparelho de Pressão: Como Medir com Precisão",
     "excerpt": "Medir a pressão arterial em casa é uma parte essencial da manutenção da saúde cardiovascular. No entanto, para garantir resultados precisos, é crucial entender o funcionamento do seu aparelho de pressão e como usá-lo corretamente. Neste guia completo, vamos explorar passo a passo como medir sua pressão arterial com precisão usando um aparelho de pressão.",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/10645/42dd094f-558a-4494-afa3-ab721b95412b",

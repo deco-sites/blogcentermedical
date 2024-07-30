@@ -11,7 +11,12 @@
         "email": "comunicacao@centermedical.com.br"
       }
     ],
-    "categories": [],
+    "categories": [
+      {
+        "name": "Posts",
+        "slug": "/posts"
+      }
+    ],
     "title": "Tubos de Raios X: Funcionamento, Aplicações e Cuidados Essenciais",
     "excerpt": "Os tubos de raios X são componentes fundamentais em diversos equipamentos de imagem médica, permitindo a visualização interna do corpo humano sem a necessidade de procedimentos invasivos. Este artigo, explora o funcionamento dos tubos de raios X, suas principais aplicações na medicina e os cuidados essenciais para garantir seu desempenho e segurança.",
     "date": "2024-07-02",
