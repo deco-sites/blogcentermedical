@@ -1,0 +1,25 @@
+{
+  "name": "Todos as postagens",
+  "path": "/posts",
+  "sections": [
+    {
+      "__resolveType": "New-Header"
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "cta": {
+        "text": "Mostrar mais"
+      },
+      "pagination": {
+        "perPage": 50
+      }
+    },
+    {
+      "__resolveType": "Footer"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

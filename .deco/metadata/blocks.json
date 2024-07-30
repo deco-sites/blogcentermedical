@@ -196,12 +196,6 @@
     "blockType": "loaders",
     "__resolveType": "blog/loaders/Blogpost.ts"
   },
-  "/.deco/blocks/pages-Posts-144379.json": {
-    "name": "Posts",
-    "path": "/posts",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/collections%2Fblog%2Fposts%2Fee400296d3b0.json": {
     "blockType": "loaders",
     "__resolveType": "blog/loaders/Blogpost.ts"
@@ -277,6 +271,16 @@
   "/.deco/blocks/pages-Quem%2520Somos-879684.json": {
     "name": "Quem Somos",
     "path": "/quem-somos",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Preview%20site%2Fsections%2FBlogPosts.tsx.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/BlogPosts.tsx"
+  },
+  "/.deco/blocks/pages-Todos%2520as%2520postagens-129878.json": {
+    "name": "Todos as postagens",
+    "path": "/posts",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }
